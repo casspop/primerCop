@@ -1,6 +1,16 @@
 # PrimerCop
 
-### A primer watchdog for a Hornady Lock-n-Load AP press
+## A primer watchdog for a Hornady Lock-n-Load AP press
+
+12/8/22 - Version 2 of the Pi Pico software is working and available in the Code
+section.
+
+Three hardware buttons were added. Two of them allow for adding or subtracting 
+from the 'primercount' variable.  The third button resets everything.
+
+Debouncing the buttons is done in software, and works pretty good.
+
+### Older notes
 
 12/6/22 - Version 1 of PrimerCop is functioning.  It's not what I'd call ready
 for prime time, but it does work.
