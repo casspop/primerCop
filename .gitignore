@@ -3,3 +3,5 @@
 /Archive
 /PrimerCop.code-workspace
 main.py
+lcd_api.py
+pico_i2c_lcd.py
