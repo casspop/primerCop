@@ -3,7 +3,9 @@
 ## A primer watchdog for a Hornady Lock-n-Load AP press
 
 If you forget to press the handle forward at the end of a loading cycle, 
-the primer is not seated in the case.  In a progressive press this is a problem.
+the primer is not seated in the case.  
+
+On a progressive press this is a problem.
 It is a problem because the next step in the process is loading powder.  If there 
 is not a primer plugging the primer cup, when your 'finished' round is ejected 
 into the tray, powder starts falling out the case generally making a mess.
