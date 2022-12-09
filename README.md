@@ -17,6 +17,19 @@ to seat the primer (primary function).
 [![Version 1 mounted on the press](./img/version_1_on_press-vs.jpg "Version 1 mounted on the press.")](./img/version_1_on_press-s.jpg)
 [![Closeup of the buzzer mount](./img/buzzer_mount-vs.jpg "Closeup of the buzzer mount.")](./img/buzzer_mount-s.jpg)
 
+PrimerCop uses two sets of Adafruit IR break-beam sensors which are triggered 
+at the top and bottom of the cycle.
+
+A Drok buck converter provides power to a Raspberry Pi Pico microcontroller 
+running a Micropython app I wrote.
+
+The mounts for everything are designed in OpenSCAD and are currently printed
+in PLA on a Prusa Mk3s.  I'm seriously thinking about redoing those parts in ABS 
+because PLA is a bit too sensitive to temperature, and I don't want anything to 
+change while the press is stored away between uses.
+
+### Changelog
+
 12/8/22 - Version 2 of the Pi Pico software is working and available in the Code
 section.  Three hardware buttons were added. Two of them allow for adding or subtracting 
 from the 'primercount' variable.  The third button resets everything.
