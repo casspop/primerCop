@@ -28,6 +28,11 @@ in PLA on a Prusa Mk3s.  I'm seriously thinking about redoing those parts in ABS
 because PLA is a bit too sensitive to temperature, and I don't want anything to 
 change while the press is stored away between uses.
 
+The whole thing is built on a steel plate that bolts to the press with two 1/4-20 
+bolts screwed into the factory provided holes on the back of the press.
+
+This makes for easy removal of the entire unit for any reason at any time.
+
 ### Changelog
 
 **12/8/22** - Version 2 of the Pi Pico software is working and available in the Code
