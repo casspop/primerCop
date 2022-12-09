@@ -5,7 +5,7 @@
 12/8/22 - Version 2 of the Pi Pico software is working and available in the Code
 section.
 
-[![Version 1 mounted on the press](./img/version_1_on_press-vs.jpg)Version 1 mounted on the press.](./img/version_1_on_press-s.jpg)
+[![Version 1 mounted on the press](./img/version_1_on_press-vs.jpg)](./img/version_1_on_press-s.jpg)"Version 1 mounted on the press."
 [![]]
 
 Three hardware buttons were added. Two of them allow for adding or subtracting 
