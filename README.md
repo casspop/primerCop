@@ -36,8 +36,6 @@ from the 'primercount' variable.  The third button resets everything.
 
 Debouncing the buttons is done in software, and works pretty good.
 
-### Older notes
-
 12/6/22 - Version 1 of PrimerCop is functioning.  It's not what I'd call ready
 for prime time, but it does work.
 
