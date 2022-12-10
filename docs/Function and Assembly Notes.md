@@ -1,6 +1,6 @@
 # Function and Assembly Notes
 
-## <span style="color:red;">These notes are in progress</span>
+**--== These notes are in progress ==--**
 
 ## Function Notes
 
