@@ -15,9 +15,11 @@
 $fn=120;
 
 module mountholes(){
-    cylinder(10,r=3.38,center=true);
-    translate([99.93,0,0])
-    cylinder(10,r=3.38,center=true);
+    union(){
+        cylinder(10,r=3.38,center=true);
+        translate([99.93,0,0])
+        cylinder(10,r=3.38,center=true);
+    }
 }
 
 module base(){
@@ -35,11 +37,14 @@ module lowerright(){
     }
 }
 module left(){
+
     minkowski() {
         translate([23,46.28,0])
         cube([119.5,20,3]);
         cylinder(1,r=5,center=true);
     }
+
+    
 }
 
 module final(){
@@ -55,14 +60,19 @@ module final(){
                 }
             }
     lowerright();
-    left();
+    difference(){
+        left();
+        translate([18+(11.75),-5+(76.28-11.75),0])
+        mountholes();
+    }
 }
-difference(){
-translate([5,5,0])
+
+translate([5,5,0])  // to offset minkowski add.
 final();
-translate([3.38+11.75,3.38+11.75,0])
-mountholes();
-}
-// translate([0,60,0])
+
+// translate([0,60,0])  // use these to check overall measurements
 // color("red")
 // cube([152.5,20,3]);
+// translate([0,60,0])
+// color("red")
+// cube([23,20,3]);
