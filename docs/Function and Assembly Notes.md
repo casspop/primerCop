@@ -32,5 +32,15 @@ I made my baseplate out of a steel VESA adapter plate from a TV mount.  I've had
 
 After getting the PrimerCop working, I then made the OpenSCAD model to match the dimensions of my steel plate.  I printed it out and verified its fit on the press.  I'm of the opinion at this point that a 3D printed version of that plate in ABS with no infill (solid plastic) would be adequately stiff to be used in place of the steel plate I have.  Just a thought.
 
+### Mounting electronics
 
+The Drok power supply and the Pi Pico are mounted to the same plate.  The Drok converter has no holes for mount screws, so I have a channel for it to slide into.  It is a bit too tight, but I was able to work it into position.  I plan to make a version 2 of the hardware with about 1.0mm added to make it less tight.
+
+There are holes in the mount plate for 2.5mm standoff screws.  Attach standoffs using those screws and mount the Pico to the standoffs.
+
+### Display notes
+
+The same problem that I encountered with the Drok converter reared its ugly head with the display mount.  I will be adding some space to the interior of that model as well.  It =does= fit, but it's really tight.  Not so tight as to cause alarm, but too tight for easy assembly.
+
+I also will be enlarging and moving the LCD contrast adjustment hole to more correctly align it with the potentiometer on the i2c board.  For the time being, I simply drilled it out larger so I could access the pot.
 
