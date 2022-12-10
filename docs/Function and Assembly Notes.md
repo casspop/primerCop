@@ -1,6 +1,8 @@
 # Function and Assembly Notes
 
-## These notes are in progress
+## <span style="color:red;">These notes are in progress</span>
+
+## Function Notes
 
 PrimerCop is a pretty simple piece of gear.  The bar on the press that retrieves and delivers the primers moves up and down with the turret plate.  We are putting IR break-beam sensors at the top and bottom of its travel to detect its location in the cycle.
 
