@@ -17,7 +17,7 @@ to seat the primer (primary function).
 [![PrimerCop display](./img/pc_display-vs.jpg "Introducing PrimerCop.")](./img/pc_display-s.jpg)
 [![Closeup of the buzzer mount](./img/buzzer_mount-vs.jpg "Closeup of the buzzer mount.")](./img/buzzer_mount-s.jpg)
 [![portrait front](./img/pc_port_front-vs.jpg "Version 1.5 portrait.")](./img/pc_port_front-s.jpg)
-
+[![portrait back](./img/pc_port_back-vs.jpg "Version 1.5 portrait.")](./img/pc_port_back-s.jpg)
 
 PrimerCop uses two sets of Adafruit IR break-beam sensors which are triggered 
 at the top and bottom of the cycle.
