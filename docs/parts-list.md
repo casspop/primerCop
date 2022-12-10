@@ -6,7 +6,7 @@ The 3mm (1/8") plate I used as the primary mounting plate is a recycled VESA mou
 
 All links below are for your convenience.  I get nothing from anyone for posting them.
 
-### The Parts
+### The Parts - (CTRL-click links to open in new window)
 
 - [Raspberry Pi Pico](https://www.sparkfun.com/products/17829?src=raspberrypi) - $4.00 - the 'W' is not needed for this project.
 - [Drok Buck Converter](https://www.amazon.com/gp/product/B01NALDSJ0/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) - $9.99 - 12vdc to 5vdc power supply.  Plug a 12vdc wall wart in and you're ready to go.  You do have a bunch of those in a box somewhere, right?  I use this power supply a lot in my Pi projects.
