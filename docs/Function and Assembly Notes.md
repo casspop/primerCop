@@ -38,6 +38,8 @@ The Drok power supply and the Pi Pico are mounted to the same plate.  The Drok c
 
 There are holes in the mount plate for 2.5mm standoff screws.  Attach standoffs using those screws and mount the Pico to the standoffs.
 
+Once you have both pieces of hardware mounted to their mount plate, affix it to the steel plate with 3 or 4 smallish pieces of Gorilla mounting tape.
+
 ### Display notes
 
 The same problem that I encountered with the Drok converter reared its ugly head with the display mount.  I will be adding some space to the interior of that model as well.  It =does= fit, but it's really tight.  Not so tight as to cause alarm, but too tight for easy assembly.
