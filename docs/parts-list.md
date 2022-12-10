@@ -10,7 +10,7 @@ All links below are for your convenience.  I get nothing from anyone for posting
 
 - [Raspberry Pi Pico](https://www.sparkfun.com/products/17829?src=raspberrypi) - $4.00 - the 'W' is not needed for this project.
 - [Drok Buck Converter](https://www.amazon.com/gp/product/B01NALDSJ0/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) - $9.99 - 12vdc to 5vdc power supply.  Plug a 12vdc wall wart in and you're ready to go.  You do have a bunch of those in a box somewhere, right?  I use this power supply a lot in my Pi projects.
-- [Adafruit IR break-beam sensors](https://www.adafruit.com/product/2167) - $2.95 - Two sets, one for the top and one for the bottom.  I recommend having a spare in case you mess up.
+- [Adafruit IR break-beam sensors](https://www.adafruit.com/product/2167) - $2.95 per set - Buy at least two sets, one for the top and one for the bottom.  I recommend having a spare in case you mess up.
 - [SPST Momentary pushbuttons](https://www.amazon.com/dp/B0BHCLHNKR?psc=1&ref=ppx_yo2ov_dt_b_product_details) - $9.99 for 12 - Need three, but they're good to have on hand.  I like these with the pigtail already soldered on.  Convenient.
 - [1602 LCD with i2c module](https://www.amazon.com/KEYESTUDIO-Display-Arduino-Raspberry-Stm32/dp/B0177XQE7K) - $9.99 - This is not the exact one I used, but they are very standardized, so it should be fine.
 - [M3 Hex Socket Head screws](https://www.amazon.com/gp/product/B07J44YXV3/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) - $21.99 for 700 piece kit - You really need to have these on hand.
