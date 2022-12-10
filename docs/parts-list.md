@@ -2,7 +2,7 @@
 
 These are the parts I used to put this together.  Some of them, like fasteners and standoffs, are from kits I have on hand which were purchased for other projects.
 
-The 3mm (1/8") plate I used as the primary mounting plate is recycled VESA mount adapter plate from a flat panel display mounting kit I acquired years (decades!) ago.  As usual, I use what I have when I can.
+The 3mm (1/8") plate I used as the primary mounting plate is a recycled VESA mount adapter plate from a flat panel display mounting kit I acquired years (decades!) ago.  As usual, I use what I have when I can.
 
 All links below are for your convenience.  I get nothing from anyone for posting them.
 
