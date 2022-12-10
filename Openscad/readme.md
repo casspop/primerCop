@@ -1,5 +1,7 @@
 # OpenSCAD files.
 
+Built with [Openscad](https://www.openscad.org).
+
 These are the files I used to print the parts for PrimerCop.  
 
 They are a bit tight on the hardware, but I was able to put it together.
