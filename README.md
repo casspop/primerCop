@@ -14,7 +14,8 @@ That's why I designed and use PrimerCop.  It keeps track of how many primers I'v
 used (secondary function), and it emits a long beep until I press the arm forward
 to seat the primer (primary function).
 
-[![Version 1 mounted on the press](./img/version_1_on_press-vs.jpg "Version 1 mounted on the press.")](./img/version_1_on_press-s.jpg)
+[![PrimerCop display](./img/pc_display-vs.jpg "Introducing PrimerCop.")](./img/pc_display-s.jpg)
+[![portrait front](./img/pc_port_front-vs.jpg "Version 1.5 portrait.")](./img/pc_port_front-s.jpg)
 [![Closeup of the buzzer mount](./img/buzzer_mount-vs.jpg "Closeup of the buzzer mount.")](./img/buzzer_mount-s.jpg)
 
 PrimerCop uses two sets of Adafruit IR break-beam sensors which are triggered 
