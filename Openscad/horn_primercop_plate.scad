@@ -62,7 +62,7 @@ module final(){
     lowerright();
     difference(){
         left();
-        translate([17.5+(11.75),-5+(76.28-11.75),0])
+        translate([15.5+(11.75),-5+(76.28-11.75),0])
         mountholes();
     }
 }
