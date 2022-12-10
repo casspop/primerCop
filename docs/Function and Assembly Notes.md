@@ -42,7 +42,14 @@ Once you have both pieces of hardware mounted to their mount plate, affix it to 
 
 ### Display notes
 
-The same problem that I encountered with the Drok converter reared its ugly head with the display mount.  I will be adding some space to the interior of that model as well.  It =does= fit, but it's really tight.  Not so tight as to cause alarm, but too tight for easy assembly.
+The same snugness problem that I encountered with the Drok converter reared its ugly head with the display mount.  I will be adding some space to the interior of that model as well.  It =does= fit, but it's really tight.  Not so tight as to cause alarm, but too tight for easy assembly.
 
 I also will be enlarging and moving the LCD contrast adjustment hole to more correctly align it with the potentiometer on the i2c board.  For the time being, I simply drilled it out larger so I could access the pot.
 
+### Wire routing
+
+As you assemble your parts, you will need to account for routing and dressing your wires.  I created the 'tinyZipTieMnt' model and I used it in several places where I needed them to keep wires under control.
+
+I used a typical superglue (Cyanoacrylate) product.  I noticed it seemed to take an unusual amount of time for this glue to set on the plastic.  If I could be patient or distract myself with something long enough, it would eventually set.  Once it did, it was quite permanent.
+
+You may need to drill some holes for zip ties in some areas.  Use your own judgement.
