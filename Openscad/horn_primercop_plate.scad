@@ -25,14 +25,14 @@ module mountholes(){
 module base(){
     minkowski(){
         translate([10,0,0])
-        cube([132.5,46.3,3]);
+        cube([132.5,46.3,2]);
         cylinder(1,r=5,center=true);
     }
 }
 
 module lowerright(){
     minkowski() {
-        cube([13,28,3]);
+        cube([13,28,2]);
         cylinder(1,r=5,center=true);
     }
 }
@@ -40,7 +40,7 @@ module left(){
 
     minkowski() {
         translate([23,46.28,0])
-        cube([119.5,20,3]);
+        cube([119.5,20,2]);
         cylinder(1,r=5,center=true);
     }
 
@@ -67,7 +67,7 @@ module final(){
     }
 }
 
-translate([5,5,0])  // to offset minkowski add.
+translate([5,5,.5])  // to offset minkowski add.
 final();
 
 // translate([0,60,0])  // use these to check overall measurements
