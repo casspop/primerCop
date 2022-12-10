@@ -16,7 +16,7 @@ Moving the handle forward lowers the turret and the bar.  This exposes the senso
 
 Releasing the handle once again blocks the sensor, and the software then reports the end of the cycle and how many primers have been used to that point.
 
-## Assembly Notes
+## Assembly Notes: Refer to the pictues in the ../img folder for reference.
 
 ### Mounting sensor brackets
 
