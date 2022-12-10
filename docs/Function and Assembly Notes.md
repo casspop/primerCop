@@ -16,3 +16,9 @@ Moving the handle forward lowers the turret and the bar.  This exposes the senso
 
 Releasing the handle once again blocks the sensor, and the software then reports the end of the cycle and how many primers have been used to that point.
 
+## Assembly Notes
+
+The top and bottom sensor brackets are held to the mount plate with Gorilla double-sided mounting tape.  This solution seems to be more than adequate.  Of course, screws and nuts could be used, but I don't see why that would be necessary at this point.
+
+The sensors themselves are not mounted exactly the same on top and bottom.  That is because the little primer sled moves out into the area where the top emitter would be if it were mounted exactly like the bottom emitter.  What I did was to dry-fit the emitter with the assembled PrimerCop mounted to the press.  I determined where a hole needed to be drilled in the top bracket so the emitter's LED could cast its beam toward the receiver.  Then I drilled said hole and mounted the emitter.
+
