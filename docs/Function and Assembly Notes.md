@@ -16,7 +16,7 @@ Moving the handle forward lowers the turret and the bar.  This exposes the senso
 
 Releasing the handle once again blocks the sensor, and the software then reports the end of the cycle and how many primers have been used to that point.
 
-## Assembly Notes: Refer to the pictues in the ../img folder for reference.
+## Assembly Notes: Refer to the pictues in the ../img folder for reference
 
 ### Mounting sensor brackets
 
@@ -61,6 +61,6 @@ There currently is no wiring diagram.  I may fix that later, but it's not a high
 - The i2c circuit is typical.
 - I landed 12vdc from the Drok on the VSYS pad.  I had it on the VBUS pad originally, but moved it while trying to comprehend the parameters of using USB for programming without unplugging the Drok supply.  In the end, I just left my 12vdc supply connected to VSYS.  VBUS may be a better choice, but it also has a voltage drop from a diode.  No biggie, but it is there.
 - The sensors and switches can be determined by reading the Python program file.  easy peasey
-- Be very careful to provide solid power and ground connections between the Drok converter and the Pico. 
-    - If you, like I, use the phoenix connector on the Drok, make sure you get all your conductors solidly screwed down.  
-    - This does NOT mean tighten the screw more.  It means strip off enough insulation to expose enough conductor so when you twist them all together they are long enough to fit deep into the connector, but not so long as to have bare conductor sticking out more than 1/16" or so.
+- Be very careful to provide solid power and ground connections between the Drok converter and the Pico.
+  - If you, like I, use the phoenix connector on the Drok, make sure you get all your conductors solidly screwed down.  
+  - This does NOT mean tighten the screw more.  It means strip off enough insulation to expose enough conductor so when you twist them all together they are long enough to fit deep into the connector, but not so long as to have bare conductor sticking out more than 1/16" or so.  If you need to, pull them back out and trim them off a bit.
