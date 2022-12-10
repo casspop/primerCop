@@ -6,7 +6,7 @@ These are the files I used to print the parts for PrimerCop.
 
 They are a bit tight on the hardware, but I was able to put it together.
 
-I'm planning on adding about 1mm to the Drok power supply mount space, as well
+I'm planning on adding about 1mm to the Drok power supply mount space as well
 as the enclosure and faceplate for the LCD display.  I'll update these when
 I do that, but it may be January or February 2023 before I get around to it.
 
