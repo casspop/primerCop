@@ -9,5 +9,5 @@ All links below are for your convenience.  I get nothing from anyone for posting
 ### The Parts
 
 - [Raspberry Pi Pico](https://www.sparkfun.com/products/17829?src=raspberrypi) - $4.00 - the 'W' is not needed for this project.
-- [Drok Buck Converter](https://www.amazon.com/gp/product/B01NALDSJ0/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) - $10.00 - 12vdc to 5vdc power supply.  Plug a 12vdc wall wart in and you're ready to go.  I use these a lot in my Pi projects.
+- [Drok Buck Converter](https://www.amazon.com/gp/product/B01NALDSJ0/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) - $10.00 - 12vdc to 5vdc power supply.  Plug a 12vdc wall wart in and you're ready to go.  You do have a bunch of those in a box somewhere, right?  I use this power supply a lot in my Pi projects.
 - [Adafruit IR break-beam sensors](https://www.adafruit.com/product/2167) - $2.95 - Two sets, one for the top and one for the bottom.  I recommend having a spare in case you mess up.
