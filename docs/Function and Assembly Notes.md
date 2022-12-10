@@ -53,3 +53,10 @@ As you assemble your parts, you will need to account for routing and dressing yo
 I used a typical superglue (Cyanoacrylate) product.  I noticed it seemed to take an unusual amount of time for this glue to set on the plastic.  If I could be patient or distract myself with something long enough, it would eventually set.  Once it did, it was quite permanent.
 
 You may need to drill some holes for zip ties in some areas.  Use your own judgement.
+
+### Wiring diagram notes
+
+There currently is no wiring diagram.  I may fix that later, but it's not a high priority.
+
+- The i2c circuits are typical.
+- I landed 12vdc from the Drok on the VSYS pad.  I had it on the VBUS pad originally, but moved it while trying to comprehend the parameters of using USB for programming without unplugging the Drok supply.  In the end, I just left my 12vdc supply connected to VSYS.  VBUS may be a better choice, but it also has a voltage drop from a diode.  No biggie, but it is there.
