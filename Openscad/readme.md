@@ -18,5 +18,6 @@ I do that, but it may be January or February 2023 before I get around to it.
 - **hornady_ap_primerCop_electronics-mnt.scad** - mount for Drok and Pico.</br>
 - **hornady_ap_primerCop_Top.scad** - top bracket for IR break-beams.</br>
 - **hornady_ap_primerCop.scad** - bottom bracket for IR break-beams.</br>
+- **hw-061 i2c LCD module.scad** - i2c module. Goes with the LCD module.</br>
 - **piezobuzzermount.scad** - mount for standard piezo buzzer.</br>
 - **tinyZipTieMnt.scad** - glue these where you want to use a tiny zip tie.</br>
