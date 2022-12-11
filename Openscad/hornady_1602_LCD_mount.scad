@@ -31,8 +31,8 @@ module thruholes(){
         cylinder(h = 30, r = 4,center=true);
 }
 
-module topscrewleg(){
-        cube([5,5,6.8],center=true);
+module topscrewleg(){                   // topscrewleg and topstandoffs are attached to
+        cube([5,5,6.8],center=true);    // the top of the box.
 }
 
 module topstandoffs(){
@@ -46,9 +46,8 @@ module topstandoffs(){
         topscrewleg();
 }
 
-module screwleg(){
-    difference(){
-        // cube([5.5,5.5,8],center=true);
+module screwleg(){                      // screwleg and standoffs are part of the 
+    difference(){                       // bottom of the box.
         cube([5.5,5.5,16],center=true);
         cylinder(86,d=2.7,center=true);
     }
@@ -65,40 +64,35 @@ module standoffs(){
         screwleg();
 }
 
-module window(){
-    cube([18,67,10]);
+module window(){                        // 'window' is the opening you view the 
+    cube([18,67,10]);                   // LCD through.
 }
-module topridge(){
-    difference(){
+module topridge(){                      // This provides a stiffening ridge
+    difference(){                       // to the otherwise flat top.
     cube([35,79,4]);
     translate([2,2,-1])
     cube([31,75,6]);
 }
 }
-module top(){
-    
-    difference(){
+module top(){                           // This module brings all the parts 
+    difference(){                       // together to make the whole top.
         union(){
             translate([.5,.5,17])
             color("magenta")
             topridge();
             translate([-2,-2,19.7])
-            // cube([40,84,22]);
             color("blue")
             cube([40,84,2]);
             translate([0,0,-1])
             color("red")
             topstandoffs();
         }
-        // union(){
-            // thruholes();
             translate([9,6.5,14])
             window();
-        // }
     }
 }
 
-module bottom(){
+module bottom(){                    // This module brings all the bottom parts together.
     difference(){
         union(){
             translate([-2,-2,0])
@@ -124,13 +118,12 @@ module composite(){
             rotate([180,0,0])
             translate([3,-55,0])
             *aacomposite();   // The '*' makes this module invisible. Remove it to see it.
-
     }
-    thruholes();
-    translate([9,40,-8])
-    SocHdHole();  
-    translate([27,40,-8])
-    SocHdHole();
+        thruholes();
+        translate([9,40,-8])
+        SocHdHole();  
+        translate([27,40,-8])
+        SocHdHole();
     }
 }
 composite();
