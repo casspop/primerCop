@@ -2,7 +2,7 @@
 
 ## A primer watchdog for a Hornady Lock-n-Load AP press
 
-### Work has begun on the hardware version 3 incorporating minor tweaks.
+### Work has begun on hardware version 3 incorporating minor tweaks.
 
 If you forget to press the handle forward at the end of a loading cycle, 
 the primer is not seated in the case.  
