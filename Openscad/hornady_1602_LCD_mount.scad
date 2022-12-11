@@ -123,9 +123,14 @@ module composite(){
             bottom();
             rotate([180,0,0])
             translate([3,-55,0])
-            *aacomposite();
-        }
+            aacomposite();
+
+    }
     thruholes();
+    translate([9,40,-8])
+    SocHdHole();  
+    translate([27,40,-8])
+    SocHdHole();
     }
 }
 composite();
