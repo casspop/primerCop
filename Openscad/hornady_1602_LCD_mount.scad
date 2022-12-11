@@ -118,22 +118,22 @@ module composite(){
         top();
         thruholes();
     }
-    // difference(){
-    //     union(){
-    //         bottom();
-    //         rotate([180,0,0])
-    //         translate([3,-55,0])
-    //         *aacomposite();
-    //     }
-    //     union(){
-    //         thruholes();
-    //         translate([9,40,-8])
-    //         SocHdHole();  
-    //         translate([27,40,-8])
-    //         SocHdHole();
-    //     }  
+    %difference(){
+        union(){
+            bottom();
+            rotate([180,0,0])
+            translate([3,-55,0])
+            *aacomposite();
+        }
+        union(){
+            thruholes();
+            translate([9,40,-8])
+            SocHdHole();  
+            translate([27,40,-8])
+            SocHdHole();
+        }  
         
-    // }
+    }
 
 // translate([0,0,12])
 // // translate([0,0,0])
@@ -143,7 +143,9 @@ module composite(){
 difference(){
 composite();
 
-
 }
+translate([0,0,13])
+LCD1602A();
+
 // screwleg();
 // standoffs();
