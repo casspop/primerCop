@@ -23,7 +23,7 @@ micropython.alloc_emergency_exception_buf(100)
 buzzer = PWM(Pin(2))
 topIR = Pin(12, Pin.IN, Pin.PULL_UP)
 bottomIR = Pin(14, Pin.IN, Pin.PULL_UP)
-pausepin = Pin(16, Pin.IN, Pin.PULL_UP)
+resetpin = Pin(16, Pin.IN, Pin.PULL_UP)
 pluspin = Pin(17, Pin.IN, Pin.PULL_UP)
 minuspin = Pin(18, Pin.IN, Pin.PULL_UP)
 
@@ -66,7 +66,7 @@ def irqsetup():
 
     pluspin.irq(trigger=Pin.IRQ_FALLING, handler=db16)
     minuspin.irq(trigger=Pin.IRQ_FALLING, handler=db17)
-    pausepin.irq(trigger=Pin.IRQ_FALLING, handler=db18)
+    resetpin.irq(trigger=Pin.IRQ_FALLING, handler=db18)
 
 def cb12(pin):
     global status,primercount
