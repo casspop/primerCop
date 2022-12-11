@@ -118,33 +118,18 @@ module composite(){
         top();
         thruholes();
     }
-    %difference(){
+    difference(){
         union(){
             bottom();
             rotate([180,0,0])
             translate([3,-55,0])
             *aacomposite();
         }
-        union(){
-            thruholes();
-            translate([9,40,-8])
-            SocHdHole();  
-            translate([27,40,-8])
-            SocHdHole();
-        }  
-        
+    thruholes();
     }
-
-// translate([0,0,12])
-// // translate([0,0,0])
-// LCD1602A(); // This function is from the 1602A-4 LCD.scad file in the 'use' statememt
-//             // at the top of this file.
 }
-difference(){
 composite();
-
-}
-translate([0,0,13])
+translate([0,0,12])
 LCD1602A();
 
 // screwleg();
