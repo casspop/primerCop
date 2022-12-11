@@ -11,6 +11,7 @@ as the enclosure and faceplate for the LCD display.  I'll update these when
 I do that, but it may be January or February 2023 before I get around to it.
 
 - **1602A-4 LCD.scad** - the 16-character 2-line LCD module w/ i2c module attached.</br>
+- **3mmSocketHeadHole.scad** - dependancy of several of these files.</br>
 - **ArticArm1602_base.scad** - articulating arm base.</br>
 - **ArticArm1602_sect.scad** - articulating arm section.</br>
 - **horn_primercop_plate.scad** - renders the steel mounting plate. Corrected 12/10/22.</br>
