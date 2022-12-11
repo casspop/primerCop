@@ -123,7 +123,7 @@ module composite(){
             bottom();
             rotate([180,0,0])
             translate([3,-55,0])
-            aacomposite();
+            *aacomposite();   // The '*' makes this module invisible. Remove it to see it.
 
     }
     thruholes();
