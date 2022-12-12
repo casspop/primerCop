@@ -17,6 +17,8 @@ That's why I designed PrimerCop.  It keeps track of how many primers I've used (
 [![portrait front](./img/pc_port_front-vs.jpg "Version 1.5 portrait.")](./img/pc_port_front-s.jpg)
 [![portrait back](./img/pc_port_back-vs.jpg "Version 1.5 portrait.")](./img/pc_port_back-s.jpg)
 
+All images are [here on the /img readme.md](./img/readme.md).
+
 PrimerCop uses two sets of Adafruit IR break-beam sensors which are triggered at the top and bottom of the cycle.
 
 A Drok buck converter provides power to a Raspberry Pi Pico microcontroller running a Micropython app I wrote.
