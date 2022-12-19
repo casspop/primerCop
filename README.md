@@ -23,7 +23,7 @@ PrimerCop uses two sets of Adafruit IR break-beam sensors which are triggered at
 
 A Drok buck converter provides power to a Raspberry Pi Pico microcontroller running a Micropython app I wrote.
 
-The mounts for everything are designed in OpenSCAD and are currently printed in PLA on a Prusa Mk3s.  I'm seriously thinking about redoing those parts in ABS because PLA is a bit too sensitive to temperature, and I don't want anything to change while the press is stored away between uses.
+The mounts for everything are designed in OpenSCAD and are currently printed in PLA on a Prusa Mk3s.  I had thought I might want to print the parts with ABS, but after trying it once, I decided to stick with PLA because it is stiffer, not to mention easier.
 
 The whole thing is built on a steel plate that bolts to the press with two 1/4-20 bolts screwed into the factory provided holes on the back of the press.
 
