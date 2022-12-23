@@ -35,13 +35,13 @@ primercount = 0
 
 
 def db16(pin):
-    timer.init(mode=Timer.ONE_SHOT, period=400, callback=cb16)
+    timer.init(mode=Timer.ONE_SHOT, period=200, callback=cb16)
 
 def db17(pin):
-    timer.init(mode=Timer.ONE_SHOT, period=400, callback=cb17)
+    timer.init(mode=Timer.ONE_SHOT, period=200, callback=cb17)
 
 def db18(pin):
-    timer.init(mode=Timer.ONE_SHOT, period=400, callback=cb18)
+    timer.init(mode=Timer.ONE_SHOT, period=200, callback=cb18)
 
 def buzz():
     buzzer.freq(500)
@@ -162,3 +162,4 @@ lcd.clear()
 lcd.putstr("PrimerCop Ready")
 lcd.move_to(0,1)
 lcd.putstr("Primer count: " + str(primercount))
+
