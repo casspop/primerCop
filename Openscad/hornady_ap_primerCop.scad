@@ -1,5 +1,7 @@
 // PrimerCop - a system that monitors the presence and completion
 // of the priming process in a Hornady Lock-n-Load AP 5 station press.
+//
+// This file is the bottom bracket that holds the IR break-beam pair.
 // Gregory A Sanders - December, 2022
 // v1.1.0
 // printed with PLA at 100% infill
