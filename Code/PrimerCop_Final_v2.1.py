@@ -119,11 +119,6 @@ def cb16(tim):
     lcd.putstr("Add 1 primer.")
     lcd.move_to(0,1)
     lcd.putstr("Count is : " + str(primercount))
-    # sleep(1)
-    # lcd.clear()
-    # lcd.putstr("Ready")
-    # lcd.move_to(0,1)
-    # lcd.putstr("Primer count: " + str(primercount))
 
 def cb17(tim):
     global status,primercount
@@ -133,11 +128,6 @@ def cb17(tim):
     lcd.putstr("Minus 1 primer.")
     lcd.move_to(0,1)
     lcd.putstr("Count is : " + str(primercount))
-    # sleep(1)
-    # lcd.clear()
-    # lcd.putstr("Ready")
-    # lcd.move_to(0,1)
-    # lcd.putstr("Primer count: " + str(primercount))
 
 
 def cb18(tim):
