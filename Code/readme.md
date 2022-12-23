@@ -1,6 +1,6 @@
 # readme.md - What is What
 
-**PrimerCop_Final_v2.1.py** - the Micropython software.  
+**PrimerCop_Final_v2.1.1.py** - the Micropython software.  
 v2.1 removed some unnecessary actions that slowed things down.
 Rename this file to 'main.py' and upload it to the Pi Pico.
 
