@@ -2,7 +2,7 @@
 # Copyright (C) 2022 Gregory A Sanders
 # Rename to main.py and upload to Pico
 # along with lcd_api.py and pico_i2c_lcd.py
-# v2.1 - December 2022
+# v2.1.1 - December 2022
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -144,7 +144,7 @@ def cb18(tim):
 
 irqsetup()
 lcd.clear()
-lcd.putstr("PrimerCop v2.1")
+lcd.putstr("PrimerCop v2.1.1")
 lcd.move_to(0,1)
 lcd.putstr("2022 drgerg.com")
 sleep(3)
