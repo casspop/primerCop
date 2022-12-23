@@ -1,10 +1,11 @@
 // PrimerCop - a system that monitors the presence and completion
 // of the priming process in a Hornady Lock-n-Load AP 5 station press.
-// Gregory A Sanders - November, 2022
-//
+// Gregory A Sanders - December, 2022
+// v1.1.0
+// printed with PLA at 100% infill
 
 
-scrdia = 5;
+scrdia = 3.2;
 scrlen = 15;
 scrhddia = 14;
 scrhddep = scrhddia / 2;
@@ -47,7 +48,7 @@ module baseblock(){
             };
         }
 
-    translate([6,22,24])
+    translate([6,25,24])
     rotate([90,0,340])
     screwHole();
     }
@@ -63,9 +64,17 @@ module irgrip(){
             cube ([24+14,.01,14]);
         };
         color("blue")
-            rotate([0,0,340])
-            translate([9,-8,11])
-            cube([14,20,6]);
+        union(){
+                rotate([0,0,340])
+                translate([9,-8,6])
+                cube([14,20,12]);
+                translate([10,16,10])
+                rotate([90,0,340])
+                screwHole();
+                translate([10,16,4])
+                rotate([90,0,340])
+                screwHole();
+            }
     }
     color("orange")
         rotate([0,0,340])
