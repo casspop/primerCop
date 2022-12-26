@@ -4,7 +4,7 @@ Here are the STL files I used on the Prusa Mk3s with PLA.
 
 Be aware that the tolerances on these are tight.  You can construct the device using these STL's, but the hardware will go in only with some insistence on your part.  See the [readme.md in the docs folder](https://github.com/casspop/PrimerCop/blob/master/docs/Function%20and%20Assembly%20Notes.md) for more details.
 
-Base for articulating arm. [ArticArm1602_base.stl](./ArticArm1602_base.stl)
+Base for articulating arm (2 are needed). [ArticArm1602_base.stl](./ArticArm1602_base.stl)
 
 Articulating arm section (2 needed). [ArticArm1602_sect.stl](./ArticArm1602_sect.stl)
 
