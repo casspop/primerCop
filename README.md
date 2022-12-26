@@ -28,6 +28,8 @@ The whole thing is built on a steel plate that bolts to the press with two 1/4-2
 This makes for easy removal of the entire unit for any reason at any time.
 
 ### Changelog
+**12/23/22** - v1.1.0 of bottom bracket.  The primer slide wheel was contacting it ever so slightly, but it was enough to cause a problem. This mod takes care of that.</br>
+             - v2.1.0 of main.py removes some unnecessary lines that were slowing things down.  Adding and subtracting to the count is quicker now.
 
 **12/8/22** - Version 2 of the Pi Pico software is working and available in the Code
 section.  Three hardware buttons were added. Two of them allow for adding or subtracting from the 'primercount' variable.  The third button resets everything.
