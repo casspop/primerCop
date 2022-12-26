@@ -2,7 +2,7 @@
 # Copyright (C) 2022 Gregory A Sanders
 # Rename to main.py and upload to Pico
 # along with lcd_api.py and pico_i2c_lcd.py
-# v2.1.1 - December 2022
+# v2.1 - December 2022
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -35,13 +35,13 @@ primercount = 0
 
 
 def db16(pin):
-    timer.init(mode=Timer.ONE_SHOT, period=200, callback=cb16)
+    timer.init(mode=Timer.ONE_SHOT, period=400, callback=cb16)
 
 def db17(pin):
-    timer.init(mode=Timer.ONE_SHOT, period=200, callback=cb17)
+    timer.init(mode=Timer.ONE_SHOT, period=400, callback=cb17)
 
 def db18(pin):
-    timer.init(mode=Timer.ONE_SHOT, period=200, callback=cb18)
+    timer.init(mode=Timer.ONE_SHOT, period=400, callback=cb18)
 
 def buzz():
     buzzer.freq(500)
@@ -119,6 +119,11 @@ def cb16(tim):
     lcd.putstr("Add 1 primer.")
     lcd.move_to(0,1)
     lcd.putstr("Count is : " + str(primercount))
+    # sleep(1)
+    # lcd.clear()
+    # lcd.putstr("Ready")
+    # lcd.move_to(0,1)
+    # lcd.putstr("Primer count: " + str(primercount))
 
 def cb17(tim):
     global status,primercount
@@ -128,6 +133,11 @@ def cb17(tim):
     lcd.putstr("Minus 1 primer.")
     lcd.move_to(0,1)
     lcd.putstr("Count is : " + str(primercount))
+    # sleep(1)
+    # lcd.clear()
+    # lcd.putstr("Ready")
+    # lcd.move_to(0,1)
+    # lcd.putstr("Primer count: " + str(primercount))
 
 
 def cb18(tim):
@@ -144,7 +154,7 @@ def cb18(tim):
 
 irqsetup()
 lcd.clear()
-lcd.putstr("PrimerCop v2.1.1")
+lcd.putstr("PrimerCop v2.1")
 lcd.move_to(0,1)
 lcd.putstr("2022 drgerg.com")
 sleep(3)
@@ -152,4 +162,3 @@ lcd.clear()
 lcd.putstr("PrimerCop Ready")
 lcd.move_to(0,1)
 lcd.putstr("Primer count: " + str(primercount))
-
