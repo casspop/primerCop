@@ -4,7 +4,7 @@
 //
 // Electronics Mounting
 //
-pwrsupplywidth=27.2;
+pwrsupplywidth=28;
 pwrsupplylength=63.6;
 pwrsupplythick=1.8;
 picomntholesw=12;
@@ -64,7 +64,7 @@ difference(){
         translate([0,54-pwrsupplywidth-6,0])
         ps();
     }
-    translate([10,4,-1])
+    translate([10,3,-1])
     pico();
     translate([71,16,1.5])
     keyslot();
