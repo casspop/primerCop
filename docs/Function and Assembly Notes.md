@@ -30,7 +30,7 @@ The sensors themselves are not mounted exactly the same on top and bottom.  That
 
 I made my baseplate out of a steel VESA adapter plate from a TV mount.  I've had a few of these for years, and it was perfect for this application.  I cut out what I needed.
 
-After getting the PrimerCop working, I then made the OpenSCAD model to match the dimensions of my steel plate.  I printed it out and verified its fit on the press.  I'm of the opinion at this point that a 3D printed version of that plate in PLA with no infill (solid plastic) would be adequately stiff to be used in place of the steel plate I have.  Just a thought.
+After getting the PrimerCop working, I then made the OpenSCAD model to match the dimensions of my steel plate.  I printed it out and verified its fit on the press.  I'm of the opinion at this point that a 3D printed version of that plate in PLA or PETG with no infill (solid plastic) would be adequately stiff to be used in place of the steel plate I have.  Just a thought.
 
 ### Mounting electronics
 
