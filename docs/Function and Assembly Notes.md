@@ -34,7 +34,7 @@ After getting the PrimerCop working, I then made the OpenSCAD model to match the
 
 ### Mounting electronics
 
-The Drok power supply and the Pi Pico are mounted to the same plate.  The Drok converter has no holes for mount screws, so I have a channel for it to slide into.  It is a bit too tight, but I was able to work it into position.  I plan to make a version 2 of the hardware with about 1.0mm added to make it less tight.
+The Drok power supply and the Pi Pico are mounted to the same plate.  The Drok converter has no holes for mount screws, so I have a channel for it to slide into.  It is a bit too tight, but I was able to work it into position.  I made a version 2 of the hardware with about 1.0mm added to make it less tight. That's what is in the SCAD and STL folders now.
 
 There are holes in the mount plate for 2.5mm standoff screws.  Attach standoffs using those screws and mount the Pico to the standoffs.
 
